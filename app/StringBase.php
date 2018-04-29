@@ -20,7 +20,7 @@ class StringBase
      * @param int $length 长度
      * @return string $str
      */
-    private static function generateString( $length = 20 )
+    public static function generateString( $length = 20 )
     {
         $str = '';
         for ($i = 0;$i < $length; $i++)
@@ -28,6 +28,20 @@ class StringBase
             $str .= chr(mt_rand(0,255));
         }
         return $str;
+    }
+
+    /**
+     * 根据指定ID生成NODE ID
+     * @param $id
+     * @param $nid
+     * @return bool|string
+     */
+    public static function getSubstrNodeId($id,$nid)
+    {
+        if(empty($id)) return false;
+        if(empty($nid)) return false;
+
+        return substr($id,0,10) . substr($nid,10,10);
     }
 
 }

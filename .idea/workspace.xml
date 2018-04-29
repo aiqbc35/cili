@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93379ef-9b0a-4c8f-bf5f-5a314a02fc94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Run.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/String.php" afterPath="$PROJECT_DIR$/app/StringBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Bencode.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Run.php" afterPath="$PROJECT_DIR$/app/Run.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/StringBase.php" afterPath="$PROJECT_DIR$/app/StringBase.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cili.php" afterPath="$PROJECT_DIR$/cili.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +30,8 @@
       <file leaf-file-name="cili.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cili.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="728">
+              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -46,8 +48,10 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/String.php" />
-        <option value="$PROJECT_DIR$/app/Run.php" />
         <option value="$PROJECT_DIR$/app/StringBase.php" />
+        <option value="$PROJECT_DIR$/app/ServerClient.php" />
+        <option value="$PROJECT_DIR$/app/Bencode.php" />
+        <option value="$PROJECT_DIR$/app/Run.php" />
         <option value="$PROJECT_DIR$/cili.php" />
       </list>
     </option>
@@ -104,6 +108,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,12 +132,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524985014869</updated>
-      <workItem from="1524985016814" duration="2520000" />
+      <workItem from="1524985016814" duration="5634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2520000" />
+    <option name="totallyTimeSpent" value="5634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1281" y="23" width="1920" height="1057" extended-state="6" />
@@ -188,37 +193,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/ServerClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Bencode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1524995146824" expanded="true" signature="25:43" ph=" bencode编码解码类 ..." />
+            <marker date="1524995146824" expanded="true" signature="60:440" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="68:159" ph=" bencode解码 ..." />
+            <marker date="1524995146824" expanded="true" signature="202:244" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="254:349" ph=" bencode编码 ..." />
+            <marker date="1524995146824" expanded="true" signature="394:438" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="446:462" ph=" bencode解码类 ..." />
+            <marker date="1524995146824" expanded="true" signature="478:5126" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="486:523" ph=" 解码数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="554:592" ph=" 数据长度 ..." />
+            <marker date="1524995146824" expanded="true" signature="623:661" ph=" 当前索引 ..." />
+            <marker date="1524995146824" expanded="true" signature="697:762" ph=" 析构函数, 传入数据并计算长度 ..." />
+            <marker date="1524995146824" expanded="true" signature="807:886" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="896:994" ph=" 解码bencode数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="1040:1333" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="1343:1391" ph=" 选择操作类型 ..." />
+            <marker date="1524995146824" expanded="true" signature="1427:1947" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="1486:1921" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="1508:1589" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="1611:1689" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="1711:1789" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="1810:1912" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="1957:2009" ph=" 解码数字类型数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="2050:2805" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="2391:2516" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="2815:2867" ph=" 解码字符串类型数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="2907:3460" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="3470:3520" ph=" 解码数组类型数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="3558:3997" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="3695:3862" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="3737:3809" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="4007:4057" ph=" 解码词典类型数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="4095:4763" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="4232:4628" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="4274:4346" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="4773:4870" ph=" 截取数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="4919:5124" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="5142:7712" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="5150:5188" ph=" 保存编码数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="5218:5279" ph=" 析构函数, 传入要编码的数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="5322:5356" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="5366:5458" ph=" bencode编码 ..." />
+            <marker date="1524995146824" expanded="true" signature="5502:5796" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="5532:5687" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="5806:5895" ph=" 选择操作类型 ..." />
+            <marker date="1524995146824" expanded="true" signature="5943:6426" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="6064:6119" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="6144:6199" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="6245:6357" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="6363:6420" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="6436:6529" ph=" 编码数字类型数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="6582:6683" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="6693:6786" ph=" 编码字符串类型数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="6838:6953" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="6963:7056" ph=" 编码数组数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="7112:7301" ph="..." />
+            <marker date="1524995146824" expanded="true" signature="7311:7406" ph=" 编码词典类型数据 ..." />
+            <marker date="1524995146824" expanded="true" signature="7462:7710" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/StringBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="370">
+          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
           <folding>
-            <marker date="1524991404215" expanded="true" signature="40:504" ph="{...}" />
-            <marker date="1524991404215" expanded="true" signature="51:96" ph=" 生成Node ID ..." />
-            <marker date="1524991404215" expanded="true" signature="137:199" ph="{...}" />
-            <marker date="1524991404215" expanded="true" signature="208:287" ph=" 生成指定长度字符串 ..." />
-            <marker date="1524991404215" expanded="true" signature="348:501" ph="{...}" />
-            <marker date="1524991404215" expanded="true" signature="413:474" ph="{...}" />
+            <marker date="1524992862844" expanded="true" signature="40:802" ph="{...}" />
+            <marker date="1524992862844" expanded="true" signature="51:96" ph=" 生成Node ID ..." />
+            <marker date="1524992862844" expanded="true" signature="137:199" ph="{...}" />
+            <marker date="1524992862844" expanded="true" signature="208:287" ph=" 生成指定长度字符串 ..." />
+            <marker date="1524992862844" expanded="true" signature="347:500" ph="{...}" />
+            <marker date="1524992862844" expanded="true" signature="412:473" ph="{...}" />
+            <marker date="1524992862844" expanded="true" signature="509:602" ph=" 根据指定ID生成NODE ID ..." />
+            <marker date="1524992862844" expanded="true" signature="657:799" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Run.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="472">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="27" />
           <folding>
-            <marker date="1524991404208" expanded="true" signature="53:451" ph="{...}" />
-            <marker date="1524991404208" expanded="true" signature="114:255" ph="..." />
-            <marker date="1524991404208" expanded="true" signature="381:447" ph="{...}" />
+            <marker date="1524995319365" expanded="true" signature="53:1729" ph="{...}" />
+            <marker date="1524995319365" expanded="true" signature="114:255" ph="..." />
+            <marker date="1524995319365" expanded="true" signature="336:392" ph=" Run constructor. ..." />
+            <marker date="1524995319365" expanded="true" signature="450:503" ph="{...}" />
+            <marker date="1524995319365" expanded="true" signature="513:554" ph=" 加入DHT网络 ..." />
+            <marker date="1524995319365" expanded="true" signature="586:825" ph="{...}" />
+            <marker date="1524995319365" expanded="true" signature="670:819" ph="{...}" />
+            <marker date="1524995319365" expanded="true" signature="879:1454" ph="{...}" />
+            <marker date="1524995319365" expanded="true" signature="960:997" ph="..." />
+            <marker date="1524995319365" expanded="true" signature="1003:1080" ph="..." />
+            <marker date="1524995319365" expanded="true" signature="1140:1363" ph="..." />
+            <marker date="1524995319365" expanded="true" signature="1273:1352" ph="..." />
+            <marker date="1524995319365" expanded="true" signature="1463:1560" ph=" 发对端送数据 ..." />
+            <marker date="1524995319365" expanded="true" signature="1611:1726" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cili.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="728">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding />
         </state>
       </provider>
