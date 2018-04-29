@@ -12,7 +12,7 @@ $bootstrapNodes = array(
     array('dht.transmissionbt.com', 6881),
     array('router.utorrent.com', 6881)
 );
-
+$table = array();
 
 if (DEBIG) {
     $whoops = new \Whoops\Run;
@@ -38,19 +38,34 @@ $server->set([
     'heartbeat_idle_time' => 10, //与heartbeat_check_interval配合使用。表示连接最大允许空闲的时间
 ]);
 
-$server->start();
 
 
-$server->on('WorkerStart',function($server,$workerId)
-{
-    global $bootstrapNodes;
 
-    $dht = new Run();
+$server->on('WorkerStart', function($server, $worker_id){
+    global $table,$bootstrapNodes;
 
-    $dht->joinDht($bootstrapNodes);
+    $run = new Run();
+    $run->joinDht($bootstrapNodes);
+
+    swoole_timer_tick(AUTO_FIND_TIME, function ($timer_id) {
+        global $table,$bootstrapNodes;
+
+    });
+
+    swoole_process::signal(SIGCHLD, function($sig) {
+        //必须为false，非阻塞模式
+        while($ret =  swoole_process::wait(false)) {
+              echo "PID={$ret['pid']}\n";
+        }
+    });
 });
 
+$server->on('Packet', function($server, $data, $fdinfo){
+    if(strlen($data) == 0){
+        return false;
+    }
 
+    var_dump($data);
+});
 
-
-
+$server->start();
