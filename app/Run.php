@@ -42,7 +42,7 @@ class Run
                 'target' => $nodeid
             ],
         ];
-        print_r($nodeInfo);exit();
+
         $result = $this->sendResponse($nodeInfo,$msg);
         var_dump($result);
     }
@@ -56,6 +56,7 @@ class Run
     private function sendResponse($msg,$address)
     {
         global $server;
+        var_dump($server);exit();
         return $server->sendto($address[0],$address[1],Bencode::encode($msg));
     }
 
