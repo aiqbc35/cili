@@ -1,5 +1,10 @@
 <?php
+ini_set('display_errors','on');
 require './vendor/autoload.php';
+use App\Run;
+
+$dht = new Run();
+
 
 // 长期在线node
 $bootstrap_nodes = array(
@@ -11,7 +16,7 @@ $bootstrap_nodes = array(
 // 初始化路由器
 $table = array();
 
-echo $nodeId = String::getNodeId();die;
+
 
 /**
  * 自动加入DHT网络，在DHT网络中搜寻节点信息
@@ -26,26 +31,26 @@ function autoFindNode()
 
 }
 
-joinDht();
-
-/**
- * 加入DHT网络
- */
-function joinDht()
-{
-    global $table,$bootstrap_nodes;
-
-    foreach ($bootstrap_nodes as $node){
-        //gethostbyname 获取互联网主机名对应的 IPv4 地址列表
-        findNode(array(gethostbyname($node[0]),$node[1]));
-    }
-}
-
-/**
- * 发送查询请求
- */
-function findNode($ip,$port)
-{
-
-}
+//joinDht();
+//
+///**
+// * 加入DHT网络
+// */
+//function joinDht()
+//{
+//    global $table,$bootstrap_nodes;
+//
+//    foreach ($bootstrap_nodes as $node){
+//        //gethostbyname 获取互联网主机名对应的 IPv4 地址列表
+//        findNode(array(gethostbyname($node[0]),$node[1]));
+//    }
+//}
+//
+///**
+// * 发送查询请求
+// */
+//function findNode($ip,$port)
+//{
+//
+//}
 
