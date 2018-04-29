@@ -11,6 +11,8 @@ $bootstrap_nodes = array(
 // 初始化路由器
 $table = array();
 
+echo $nodeId = String::getNodeId();die;
+
 /**
  * 自动加入DHT网络，在DHT网络中搜寻节点信息
  */
@@ -34,15 +36,15 @@ function joinDht()
     global $table,$bootstrap_nodes;
 
     foreach ($bootstrap_nodes as $node){
-        $host = gethostbyname($node[0]);
-        echo 'URL:' . $node[0] . '---IP:' .$host . "< br />";
+        //gethostbyname 获取互联网主机名对应的 IPv4 地址列表
+        findNode(array(gethostbyname($node[0]),$node[1]));
     }
 }
 
 /**
  * 发送查询请求
  */
-function findNode()
+function findNode($ip,$port)
 {
 
 }
