@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f93379ef-9b0a-4c8f-bf5f-5a314a02fc94" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Run.php" afterPath="$PROJECT_DIR$/app/Run.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cili.php" afterPath="$PROJECT_DIR$/cili.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Run.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Run.php">
+      <file leaf-file-name="cili.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cili.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="793">
-              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            <state relative-caret-position="194">
+              <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -51,9 +46,9 @@
         <option value="$PROJECT_DIR$/app/StringBase.php" />
         <option value="$PROJECT_DIR$/app/ServerClient.php" />
         <option value="$PROJECT_DIR$/app/Bencode.php" />
-        <option value="$PROJECT_DIR$/cili.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Run.php" />
+        <option value="$PROJECT_DIR$/cili.php" />
       </list>
     </option>
   </component>
@@ -92,6 +87,11 @@
               <item name="cili" type="b2602c69:ProjectViewProjectNode" />
               <item name="cili" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="cili" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cili" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -128,12 +128,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524985014869</updated>
-      <workItem from="1524985016814" duration="5987000" />
+      <workItem from="1524985016814" duration="6208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5987000" />
+    <option name="totallyTimeSpent" value="6208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1281" y="23" width="1920" height="1057" extended-state="6" />
@@ -146,7 +146,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -283,21 +283,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cili.php">
+    <entry file="file://$PROJECT_DIR$/app/Run.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="602">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <marker date="1524995338370" expanded="true" signature="213:675" ph="..." />
-            <marker date="1524995338370" expanded="true" signature="214:674" ph="..." />
+            <marker date="1524995692303" expanded="true" signature="53:1725" ph="{...}" />
+            <marker date="1524995692303" expanded="true" signature="114:255" ph="..." />
+            <marker date="1524995692303" expanded="true" signature="336:392" ph=" Run constructor. ..." />
+            <marker date="1524995692303" expanded="true" signature="450:503" ph="{...}" />
+            <marker date="1524995692303" expanded="true" signature="513:554" ph=" 加入DHT网络 ..." />
+            <marker date="1524995692303" expanded="true" signature="586:825" ph="{...}" />
+            <marker date="1524995692303" expanded="true" signature="670:819" ph="{...}" />
+            <marker date="1524995692303" expanded="true" signature="879:1450" ph="{...}" />
+            <marker date="1524995692303" expanded="true" signature="960:997" ph="..." />
+            <marker date="1524995692303" expanded="true" signature="1003:1080" ph="..." />
+            <marker date="1524995692303" expanded="true" signature="1140:1363" ph="..." />
+            <marker date="1524995692303" expanded="true" signature="1273:1352" ph="..." />
+            <marker date="1524995692303" expanded="true" signature="1459:1556" ph=" 发对端送数据 ..." />
+            <marker date="1524995692303" expanded="true" signature="1607:1722" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Run.php">
+    <entry file="file://$PROJECT_DIR$/cili.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        <state relative-caret-position="194">
+          <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="70" />
           <folding />
         </state>
       </provider>

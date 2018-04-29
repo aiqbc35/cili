@@ -1,9 +1,20 @@
 <?php
-ini_set('display_errors','on');
+
 require './vendor/autoload.php';
 use App\Run;
 
 define('BASEPATH', dirname(__FILE__));
+define('DEBIG',true);
+
+if (DEBIG) {
+    $whoops = new \Whoops\Run;
+    $optionTitle = "框架出错了";
+    $option = new \Whoops\Handler\PrettyPageHandler();
+    $option->setPageTitle($optionTitle);
+    $whoops->pushHandler($option);
+    $whoops->register();
+    ini_set('display_errors','on');
+}
 
 
 $server = new swoole_server('0.0.0.0',6882,SWOOLE_BASE,SWOOLE_SOCK_UDP);
