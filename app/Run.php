@@ -66,7 +66,7 @@ class Run
         ];
 
         $result = $this->sendResponse($nodeInfo,$msg);
-        var_dump($result);
+        dump($result);
     }
 
     /**

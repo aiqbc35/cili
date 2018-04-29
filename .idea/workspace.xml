@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93379ef-9b0a-4c8f-bf5f-5a314a02fc94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Bencode.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Run.php" afterPath="$PROJECT_DIR$/app/Run.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/StringBase.php" afterPath="$PROJECT_DIR$/app/StringBase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cili.php" afterPath="$PROJECT_DIR$/cili.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cili.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cili.php">
+      <file leaf-file-name="Run.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Run.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="793">
+              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -45,14 +46,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/String.php" />
         <option value="$PROJECT_DIR$/app/StringBase.php" />
         <option value="$PROJECT_DIR$/app/ServerClient.php" />
         <option value="$PROJECT_DIR$/app/Bencode.php" />
-        <option value="$PROJECT_DIR$/app/Run.php" />
         <option value="$PROJECT_DIR$/cili.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Run.php" />
       </list>
     </option>
   </component>
@@ -91,11 +92,6 @@
               <item name="cili" type="b2602c69:ProjectViewProjectNode" />
               <item name="cili" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="cili" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cili" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -132,12 +128,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524985014869</updated>
-      <workItem from="1524985016814" duration="5634000" />
+      <workItem from="1524985016814" duration="5987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5634000" />
+    <option name="totallyTimeSpent" value="5987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1281" y="23" width="1920" height="1057" extended-state="6" />
@@ -173,26 +169,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <marker date="1524985171875" expanded="true" signature="0:127" ph="{&quot;name&quot;: &quot;rookie/cili&quot;...}" />
-            <marker date="1524985171875" expanded="true" signature="63:125" ph="{...}" />
-            <marker date="1524985171875" expanded="true" signature="81:119" ph="{&quot;App\&quot;: &quot;app/&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ServerClient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -285,25 +261,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Run.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="27" />
+        <state relative-caret-position="28">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <marker date="1524995319365" expanded="true" signature="53:1729" ph="{...}" />
-            <marker date="1524995319365" expanded="true" signature="114:255" ph="..." />
-            <marker date="1524995319365" expanded="true" signature="336:392" ph=" Run constructor. ..." />
-            <marker date="1524995319365" expanded="true" signature="450:503" ph="{...}" />
-            <marker date="1524995319365" expanded="true" signature="513:554" ph=" 加入DHT网络 ..." />
-            <marker date="1524995319365" expanded="true" signature="586:825" ph="{...}" />
-            <marker date="1524995319365" expanded="true" signature="670:819" ph="{...}" />
-            <marker date="1524995319365" expanded="true" signature="879:1454" ph="{...}" />
-            <marker date="1524995319365" expanded="true" signature="960:997" ph="..." />
-            <marker date="1524995319365" expanded="true" signature="1003:1080" ph="..." />
-            <marker date="1524995319365" expanded="true" signature="1140:1363" ph="..." />
-            <marker date="1524995319365" expanded="true" signature="1273:1352" ph="..." />
-            <marker date="1524995319365" expanded="true" signature="1463:1560" ph=" 发对端送数据 ..." />
-            <marker date="1524995319365" expanded="true" signature="1611:1726" ph="{...}" />
+            <marker date="1524995502409" expanded="true" signature="0:263" ph="{&quot;name&quot;: &quot;rookie/cili&quot;...}" />
+            <marker date="1524995502409" expanded="true" signature="44:117" ph="{&quot;filp/whoops&quot;: &quot;^2.1&quot;...}" />
+            <marker date="1524995502409" expanded="true" signature="138:182" ph="{&quot;symfony/var-dumper&quot;: &quot;^4.0&quot;...}" />
+            <marker date="1524995502409" expanded="true" signature="199:261" ph="{...}" />
+            <marker date="1524995502409" expanded="true" signature="217:255" ph="{&quot;App\&quot;: &quot;app/&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -311,7 +286,18 @@
     <entry file="file://$PROJECT_DIR$/cili.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <marker date="1524995338370" expanded="true" signature="213:675" ph="..." />
+            <marker date="1524995338370" expanded="true" signature="214:674" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Run.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
           <folding />
         </state>
       </provider>
