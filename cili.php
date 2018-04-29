@@ -45,8 +45,8 @@ $server->on('WorkerStart', function($server, $worker_id){
     global $table,$bootstrapNodes;
 
     $run = new Run();
-    //$run->joinDht($bootstrapNodes);
-    echo "test \n";
+    $run->joinDht($bootstrapNodes);
+
 
     swoole_timer_tick(3000, function ($timer_id) {
         global $table,$bootstrapNodes;
