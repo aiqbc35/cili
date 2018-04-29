@@ -17,7 +17,7 @@ class Run
         foreach ($bootstrapNodes as $noode)
         {
             //gethostbyname 获取互联网主机名对应的 IPv4 地址列表
-            return $this->findNode(array(gethostbyname($noode[0]),$noode[1]));
+            $this->findNode(array(gethostbyname($noode[0]),$noode[1]));
         }
     }
 
@@ -43,8 +43,7 @@ class Run
             ],
         ];
 
-        $result = $this->sendResponse($nodeInfo,$msg);
-        var_dump($result);exit();
+        $this->sendResponse($nodeInfo,$msg);
     }
 
     /**
@@ -56,7 +55,7 @@ class Run
     private function sendResponse($msg,$address)
     {
         global $server;
-        return $server->sendto($address[0],$address[1],Bencode::encode($msg));
+        $server->sendto($address[0],$address[1],Bencode::encode($msg));
     }
 
 }
