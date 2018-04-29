@@ -48,7 +48,7 @@ $server->on('WorkerStart', function($server, $worker_id){
     //$run->joinDht($bootstrapNodes);
     echo "test \n";
 
-    swoole_timer_tick(AUTO_FIND_TIME, function ($timer_id) {
+    swoole_timer_tick(3000, function ($timer_id) {
         global $table,$bootstrapNodes;
         echo "jincheng \n";
     });
