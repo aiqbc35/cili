@@ -17,7 +17,7 @@ if (DEBIG) {
 }
 
 
-$server = new swoole_server('0.0.0.0',6882,SWOOLE_BASE,SWOOLE_SOCK_UDP);
+$server = new swoole_server('0.0.0.0',6882,SWOOLE_PROCESS,SWOOLE_SOCK_UDP);
 
 $server->set([
     'worker_num' => 4,    //设置启动的worker进程数
