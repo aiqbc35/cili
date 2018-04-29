@@ -7,11 +7,7 @@ use App\StringBase;
 class Run
 {
     //长期在线NODE
-    private static $bootstrapNodes = array(
-        array('router.bittorrent.com', 6881),
-        array('dht.transmissionbt.com', 6881),
-        array('router.utorrent.com', 6881)
-    );
+    private static $bootstrapNodes = array();
 
     //初始化路由器
     private $table = array();
@@ -32,11 +28,10 @@ class Run
      * 加入DHT网络
      * @return void
      */
-    public function joinDht()
+    public function joinDht($bootstrapNodes)
     {
-        $noodes = self::$bootstrapNodes;
 
-        foreach ($noodes as $noode)
+        foreach ($bootstrapNodes as $noode)
         {
             //gethostbyname 获取互联网主机名对应的 IPv4 地址列表
             return $this->findNode(array(gethostbyname($noode[0]),$noode[1]));
@@ -66,7 +61,7 @@ class Run
         ];
 
         $result = $this->sendResponse($nodeInfo,$msg);
-        dump($result);
+        var_dump($result);
     }
 
     /**
@@ -77,8 +72,8 @@ class Run
      */
     private function sendResponse($msg,$address)
     {
-        global $serv;
-        return $serv->sendto($address[0],$address[1],Bencode::encode($msg));
+        global $server;
+        return $server->sendto($address[0],$address[1],Bencode::encode($msg));
     }
 
 }
