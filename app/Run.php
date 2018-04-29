@@ -6,23 +6,6 @@ use App\StringBase;
 
 class Run
 {
-    //长期在线NODE
-    private static $bootstrapNodes = array();
-
-    //初始化路由器
-    private $table = array();
-
-    private $stringBase;
-
-    /**
-     * Run constructor.
-     * @param $stringBase
-     */
-    public function __construct(StringBase $stringBase)
-    {
-        $this->stringBase = $stringBase;
-    }
-
 
     /**
      * 加入DHT网络
@@ -41,17 +24,17 @@ class Run
 
     private function findNode($nodeInfo,$id = null)
     {
-        $nid = $this->stringBase::getNodeId();
+        $nid = StringBase::getNodeId();
 
         if (is_null($id)){
             $nodeid = $nid;
         }else{
-            $nodeid = $this->stringBase::getSubstrNodeId($id,$nid);
+            $nodeid = StringBase::getSubstrNodeId($id,$nid);
         }
         if(empty($nodeid)) return false;
 
         $msg = [
-            't' => $this->stringBase::generateString(2),
+            't' => StringBase::generateString(2),
             'y' => 'q',
             'q' => 'findNode',
             'a' => [
@@ -59,7 +42,7 @@ class Run
                 'target' => $nodeid
             ],
         ];
-
+        print_r($msg);die;
         $result = $this->sendResponse($nodeInfo,$msg);
         var_dump($result);
     }
