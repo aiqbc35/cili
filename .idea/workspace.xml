@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f93379ef-9b0a-4c8f-bf5f-5a314a02fc94" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Run.php" afterPath="$PROJECT_DIR$/app/Run.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cili.php" afterPath="$PROJECT_DIR$/cili.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cili.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cili.php">
+      <file leaf-file-name="Run.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Run.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="406">
+              <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -47,8 +48,8 @@
         <option value="$PROJECT_DIR$/app/ServerClient.php" />
         <option value="$PROJECT_DIR$/app/Bencode.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/Run.php" />
         <option value="$PROJECT_DIR$/cili.php" />
+        <option value="$PROJECT_DIR$/app/Run.php" />
       </list>
     </option>
   </component>
@@ -128,12 +129,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524985014869</updated>
-      <workItem from="1524985016814" duration="6824000" />
+      <workItem from="1524985016814" duration="6952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6824000" />
+    <option name="totallyTimeSpent" value="6952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1281" y="23" width="1920" height="1057" extended-state="6" />
@@ -146,7 +147,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -283,33 +284,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Run.php">
+    <entry file="file://$PROJECT_DIR$/cili.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="434">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="5" />
           <folding>
-            <marker date="1524995692303" expanded="true" signature="53:1725" ph="{...}" />
-            <marker date="1524995692303" expanded="true" signature="114:255" ph="..." />
-            <marker date="1524995692303" expanded="true" signature="336:392" ph=" Run constructor. ..." />
-            <marker date="1524995692303" expanded="true" signature="450:503" ph="{...}" />
-            <marker date="1524995692303" expanded="true" signature="513:554" ph=" 加入DHT网络 ..." />
-            <marker date="1524995692303" expanded="true" signature="586:825" ph="{...}" />
-            <marker date="1524995692303" expanded="true" signature="670:819" ph="{...}" />
-            <marker date="1524995692303" expanded="true" signature="879:1450" ph="{...}" />
-            <marker date="1524995692303" expanded="true" signature="960:997" ph="..." />
-            <marker date="1524995692303" expanded="true" signature="1003:1080" ph="..." />
-            <marker date="1524995692303" expanded="true" signature="1140:1363" ph="..." />
-            <marker date="1524995692303" expanded="true" signature="1273:1352" ph="..." />
-            <marker date="1524995692303" expanded="true" signature="1459:1556" ph=" 发对端送数据 ..." />
-            <marker date="1524995692303" expanded="true" signature="1607:1722" ph="{...}" />
+            <marker date="1524997604394" expanded="true" signature="128:380" ph="..." />
+            <marker date="1524997604394" expanded="true" signature="384:985" ph="//..." />
+            <marker date="1524997604394" expanded="true" signature="1073:1151" ph="..." />
+            <marker date="1524997604394" expanded="true" signature="1079:1150" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cili.php">
+    <entry file="file://$PROJECT_DIR$/app/Run.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="406">
+          <caret line="80" column="20" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding />
         </state>
       </provider>

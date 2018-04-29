@@ -77,8 +77,8 @@ class Run
      */
     private function sendResponse($msg,$address)
     {
-        global $server;
-        return $server->sendto($address[0],$address[1],Bencode::encode($msg));
+        global $serv;
+        return $serv->sendto($address[0],$address[1],Bencode::encode($msg));
     }
 
 }
