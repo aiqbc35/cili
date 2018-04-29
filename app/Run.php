@@ -42,7 +42,7 @@ class Run
                 'target' => $nodeid
             ],
         ];
-        print_r($msg);die;
+
         $result = $this->sendResponse($nodeInfo,$msg);
         var_dump($result);
     }
